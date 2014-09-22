@@ -1,3 +1,82 @@
-@charset "utf-8";
-/* CSS Document */
+/*-- fonts -section ---*/
+@font-face {
+    font-family: 'catorze27_style';
+    src: url('../fonts/catorze27style1-bold.eot');
+    src: url('../fonts/catorze27style1-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/catorze27style1-bold.woff2') format('woff2'),
+         url('../fonts/catorze27style1-bold.woff') format('woff'),
+         url('../fonts/catorze27style1-bold.ttf') format('truetype'),
+         url('../fonts/catorze27style1-bold.svg#catorze27_style_1bold') format('svg');
+    font-weight: 600;
+    font-style: normal;
 
+}
+
+
+
+h2 {
+    font-family: 'catorze27_style', sans-serif;
+	font-size:22px;
+	line-height:44px;
+	text-align:center;
+	text-transform:uppercase;
+	background:url(../images/tile_headers-bg.png) center bottom  no-repeat;}
+	
+	
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size:13px;
+	color:black;
+	line-height:18px;}
+	
+/*-- hrader part ---*/
+header {
+	position:relative;
+	background:url(../images/veterany3-2ext.jpg) center center no-repeat;
+	height:228px;
+	padding-top:50px;}
+	
+header > div > nav.navbar {
+	right:0;
+	top:0;
+	position:absolute;
+	z-index:100;
+	border:none;
+	background:none;}
+	
+header > div > nav.navbar .navbar-toggle {
+	position:absolute;
+	right:0;
+	top:0;
+	height:40px;
+	width:40px;
+	margin-right:0;
+	margin-top:0;
+	background-color:white;
+	border:none;
+	border-radius:0px;}
+	
+header > div > nav.navbar .navbar-toggle:focus {
+	background-color:white;}
+	
+header > div > nav.navbar .navbar-toggle .icon-bar {
+	background-color:#4f4f4f;
+	height:3px;}
+	
+	
+#bs-navbar-collapse {
+	padding-top:40px;
+	background-color:white;
+	border-bottom:3px solid #4f4f4f;}	
+	
+	
+.logo-holder {
+	text-align:center;}
+	
+.logo-holder > a {
+	display:inline-block;}
+		
+.logo-holder > a > img {
+	height:140px;
+	width:80px;}			
