@@ -12,7 +12,8 @@
 
 }
 
-
+a, a:focus {
+	outline:none;}
 
 h2 {
     font-family: 'catorze27_style', sans-serif;
@@ -34,6 +35,9 @@ body {
 	font-size:13px;
 	color:black;
 	line-height:18px;}
+	
+.text-holder > p {
+	text-align:justify;}	
 	
 /*-- hrader part ---*/
 header {
@@ -89,4 +93,68 @@ header > div > nav.navbar .navbar-toggle .icon-bar {
 		
 .logo-holder > a > img {
 	height:140px;
-	width:80px;}			
+	width:80px;}
+	
+	
+/*-- activites -- */
+#activites .nav-tabs {
+	border-bottom:none;
+	margin-bottom:20px;}
+
+#activites .nav-tabs > li {
+	float:none;}
+	
+#activites .nav-tabs > li.active > a, #activites .nav-tabs > li.active > a:hover, #activites .nav-tabs > li.active > a:focus {
+	border:none;}
+	
+#activites .nav-tabs > li.active > a {
+	font-weight:600;
+	text-decoration:none;}
+		
+#activites .nav-tabs > li > a {
+	border:none;
+	border-radius:none;
+	line-height:20px;
+	font-size:14px;
+	text-decoration:underline;
+	color:black;
+	padding:2px;
+	text-align:center;}
+	
+#activites .nav-tabs > li > a:hover, #activites .nav-tabs > li > a:focus  {
+	background-color:white;}
+	
+/*-- memories -- */
+#memories .nav-tabs {
+	border-bottom:none;
+	margin-bottom:20px;}
+
+#memories .nav-tabs > li {
+	float:none;}
+	
+#memories .nav-tabs > li.active > a, #activites .nav-tabs > li.active > a:hover, #activites .nav-tabs > li.active > a:focus {
+	border:none;}
+	
+#memories .nav-tabs > li.active > a {
+	font-weight:600;
+	text-decoration:none;}
+	
+#memories .nav-tabs > li > a:hover, #activites .nav-tabs > li > a:focus  {
+	background-color:white;}
+	
+#memories .nav-tabs > li > a {
+	border:none;
+	border-radius:none;
+	line-height:20px;
+	font-size:14px;
+	text-decoration:underline;
+	color:black;
+	padding:2px;
+	text-align:center;}
+	
+#memories .photo-holder {
+	text-align:center;}	
+	
+#memories .descr-holder > p {
+	text-align:justify;}	
+				
