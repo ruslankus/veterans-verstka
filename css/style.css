@@ -16,13 +16,18 @@
 
 h2 {
     font-family: 'catorze27_style', sans-serif;
+	font-weight:400;
 	font-size:22px;
 	line-height:44px;
 	text-align:center;
 	text-transform:uppercase;
 	background:url(../images/tile_headers-bg.png) center bottom  no-repeat;}
 	
-	
+h4 {	
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+	text-align:center;
+	font-size:14px;}
 
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -57,7 +62,7 @@ header > div > nav.navbar .navbar-toggle {
 	border:none;
 	border-radius:0px;}
 	
-header > div > nav.navbar .navbar-toggle:focus {
+header > div > nav.navbar .navbar-toggle:focus , header > div > nav.navbar .navbar-toggle:hover {
 	background-color:white;}
 	
 header > div > nav.navbar .navbar-toggle .icon-bar {
@@ -65,10 +70,15 @@ header > div > nav.navbar .navbar-toggle .icon-bar {
 	height:3px;}
 	
 	
+	
+	
 #bs-navbar-collapse {
 	padding-top:40px;
 	background-color:white;
-	border-bottom:3px solid #4f4f4f;}	
+	border-bottom:3px solid #4f4f4f;}
+	
+#bs-navbar-collapse .navbar-nav > li > a {
+	text-transform:uppercase;}
 	
 	
 .logo-holder {
