@@ -29,12 +29,17 @@ h4 {
 	font-weight:700;
 	text-align:center;
 	font-size:14px;}
+	
+section > div > div > div:last-child {
+	padding-bottom:20px;
+	border:1px solid #e2e2e2;} 	
 
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size:13px;
 	color:black;
 	line-height:18px;}
+	
 	
 .text-holder > p, .text-holder article > p {
 	text-align:justify;}	
@@ -130,5 +135,80 @@ header > div > nav.navbar .navbar-toggle .icon-bar {
 	text-align:center;}	
 	
 .memories .descr-holder > p {
-	text-align:justify;}	
-				
+	text-align:justify;}
+	
+/* -- documents -- */
+.meniu-item-holder > .meniu-item-heading {
+	text-align:center;
+	margin-bottom:10px;}
+	
+.meniu-item-holder > .meniu-item-heading > a {
+	text-decoration:none;
+	text-align:center;
+	color:black;
+	font-size:14px;
+	font-weight:700;}
+	
+.meniu-item-holder > .meniu-item-heading > a.collapsed {
+	text-decoration:underline;}
+	
+.meniu-item-holder > .meniu-item-heading > a:hover {
+	cursor:pointer;}
+	
+/*--- partners ---*/
+.partners-photo {
+	width:100%;
+	text-align:center;}
+	
+.partners-photo > a {
+	display:block;
+	font-size:13px;
+	color:#959595;
+	text-decoration:underline;}
+	
+.partners-photo > a:hover {
+	text-decoration:none;}
+	
+/*-- photo gallery section --*/
+.galls-holder {
+	width:100%;
+	text-align:center;}
+	
+.gall {
+	margin-bottom:20px;}	
+	
+.gall > a  {
+	cursor:pointer;
+	display:block;
+	text-align:center;
+	color:black;
+	text-decoration:underline;}
+	
+.gall > a:hover  {
+	text-decoration:none;}
+	
+.gall > a > span  {
+	display:block;}
+	
+.gallery-list > h4 {
+	text-align:center;
+	margin-bottom:20px;}	
+	
+/*-- contact section --*/
+.contacts .text-holder table tr > td:first-child {
+	width:30%;
+	font-weight:700;
+	text-align:left;}		
+
+.contacts .text-holder table tr > td{
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:right;}
+	
+/*--- footer   ----*/
+footer {
+	padding:30px 0px;}
+
+footer .text-holder {
+	text-align:center;
+	color:#adadad;}	
