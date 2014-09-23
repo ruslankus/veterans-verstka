@@ -36,7 +36,7 @@ body {
 	color:black;
 	line-height:18px;}
 	
-.text-holder > p {
+.text-holder > p, .text-holder article > p {
 	text-align:justify;}	
 	
 /*-- hrader part ---*/
