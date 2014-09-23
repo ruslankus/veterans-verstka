@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=3374dd0706d3c8e7cf6c)
- * Config saved to config.json and https://gist.github.com/3374dd0706d3c8e7cf6c
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=ada96de59e3493e201f4)
+ * Config saved to config.json and https://gist.github.com/ada96de59e3493e201f4
  */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
@@ -3810,7 +3810,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
-  max-height: 340px;
+  max-height: 640px;
 }
 @media (max-width: 480px) and (orientation: landscape) {
   .navbar-fixed-top .navbar-collapse,
