@@ -97,21 +97,21 @@ header > div > nav.navbar .navbar-toggle .icon-bar {
 	
 	
 /*-- activites -- */
-#activites .nav-tabs {
+.tabs-holder .nav-tabs {
 	border-bottom:none;
 	margin-bottom:20px;}
 
-#activites .nav-tabs > li {
+.tabs-holder .nav-tabs > li {
 	float:none;}
 	
-#activites .nav-tabs > li.active > a, #activites .nav-tabs > li.active > a:hover, #activites .nav-tabs > li.active > a:focus {
+.tabs-holder .nav-tabs > li.active > a, #activites .nav-tabs > li.active > a:hover, #activites .nav-tabs > li.active > a:focus {
 	border:none;}
 	
-#activites .nav-tabs > li.active > a {
+.tabs-holder .nav-tabs > li.active > a {
 	font-weight:600;
 	text-decoration:none;}
 		
-#activites .nav-tabs > li > a {
+.tabs-holder .nav-tabs > li > a {
 	border:none;
 	border-radius:none;
 	line-height:20px;
@@ -121,40 +121,14 @@ header > div > nav.navbar .navbar-toggle .icon-bar {
 	padding:2px;
 	text-align:center;}
 	
-#activites .nav-tabs > li > a:hover, #activites .nav-tabs > li > a:focus  {
+.tabs-holder.nav-tabs > li > a:hover, #activites .nav-tabs > li > a:focus  {
 	background-color:white;}
 	
 /*-- memories -- */
-#memories .nav-tabs {
-	border-bottom:none;
-	margin-bottom:20px;}
-
-#memories .nav-tabs > li {
-	float:none;}
 	
-#memories .nav-tabs > li.active > a, #activites .nav-tabs > li.active > a:hover, #activites .nav-tabs > li.active > a:focus {
-	border:none;}
-	
-#memories .nav-tabs > li.active > a {
-	font-weight:600;
-	text-decoration:none;}
-	
-#memories .nav-tabs > li > a:hover, #activites .nav-tabs > li > a:focus  {
-	background-color:white;}
-	
-#memories .nav-tabs > li > a {
-	border:none;
-	border-radius:none;
-	line-height:20px;
-	font-size:14px;
-	text-decoration:underline;
-	color:black;
-	padding:2px;
-	text-align:center;}
-	
-#memories .photo-holder {
+.memories .photo-holder {
 	text-align:center;}	
 	
-#memories .descr-holder > p {
+.memories .descr-holder > p {
 	text-align:justify;}	
 				
