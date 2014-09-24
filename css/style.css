@@ -51,7 +51,7 @@ body {
 /*-- hrader part ---*/
 header {
 	position:relative;
-	background:url(../images/veterany3-2ext.jpg) center center no-repeat;
+	background:#042202 url(../images/veterany3-2ext.jpg) center center no-repeat;
 	height:228px;
 	padding-top:50px;}
 	
@@ -117,7 +117,18 @@ header > div > nav.navbar .navbar-toggle .icon-bar {
 	margin-top: 40px;}
 	
 #bs-navbar-collapse .navbar-nav > li > a {
-	text-transform:uppercase;}
+	text-transform:uppercase;
+	color:#676767;}
+	
+.navbar-nav .open .dropdown-menu > li > a:first-letter {
+	text-transform:uppercase;}	
+	
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	background-color:white;
+	color:#676767;}
+	
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	color:#676767;}
 	
 	
 .logo-holder {
@@ -276,7 +287,7 @@ footer .text-holder {
 	.galls-holder {text-align:center;}
 	.galls-holder > .gall {display:inline-block; width:49%;}
 	
-	.contacts .text-holder table tr > td:first-child {width:25%;}
+	.contacts .text-holder table tr > td:first-child {width:19%;}
 	.contacts .text-holder table tr > td{ text-align:left;}
 }
 
@@ -294,12 +305,20 @@ footer .text-holder {
 	.memories .tabs-holder > .nav-tabs > li {display:block; width:100%;float:none;}
 	.galls-holder > .gall {display:inline-block; width:32%;}
 	
-	.contacts .text-holder table tr > td:first-child {width:17%;}
+	.contacts .text-holder table tr > td:first-child {width:15%;}
 	section div > h2 {margin-bottom:40px;}
+	
+	.tabs-holder .nav-tabs > li > a { text-align:left;}
+
 }
 
 
 @media (min-width:1200px){
+	header {height: 340px; padding-top: 100px;}
+	.logo-holder > a > img {width:119px; height:194px;}
 	
+	section > div .text-holder, section > div .tabs-holder {padding-left:0; padding-right:0}
 	
+	.memories .photo-holder { width:36%;}
+	.tab-pane > .descr-holder { padding-left:8%; width:64%; }
 }
