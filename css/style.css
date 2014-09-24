@@ -113,6 +113,7 @@ header > div > nav.navbar .navbar-toggle .icon-bar {
 	z-index:-10}
 	
 #bs-navbar-collapse .navbar-nav	 {
+	padding-right:50px;
 	margin-top: 40px;}
 	
 #bs-navbar-collapse .navbar-nav > li > a {
@@ -179,7 +180,8 @@ header > div > nav.navbar .navbar-toggle .icon-bar {
 	font-weight:700;}
 	
 .meniu-item-holder .collapse {
-	text-align:justify;}
+	text-align:justify;
+	padding-bottom:20px;}
 		
 .meniu-item-holder > .meniu-item-heading > a.collapsed {
 	text-decoration:underline;}
@@ -294,4 +296,10 @@ footer .text-holder {
 	
 	.contacts .text-holder table tr > td:first-child {width:17%;}
 	section div > h2 {margin-bottom:40px;}
+}
+
+
+@media (min-width:1200px){
+	
+	
 }
