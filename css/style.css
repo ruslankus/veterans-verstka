@@ -30,6 +30,10 @@ h4 {
 	text-align:center;
 	font-size:14px;}
 	
+section,footer {
+	max-width:1005px;
+	margin:0 auto;}
+	
 section > div > div > div:last-child {
 	padding-bottom:20px;
 	border-bottom:1px solid #e2e2e2;} 	
@@ -268,4 +272,22 @@ footer .text-holder {
 	
 	.contacts .text-holder table tr > td:first-child {width:25%;}
 	.contacts .text-holder table tr > td{ text-align:left;}
+}
+
+
+
+@media (min-width:992px){
+	header {height: 280px; padding-top: 100px;}
+	header > .nav-holder { height:auto;margin-bottom:0;}
+	header > .nav-holder > nav {max-width:1005px; margin-right:auto; margin-left:auto;}
+	header > div > nav.navbar { position:static; margin-bottom:0px;}
+	#bs-navbar-collapse {border-bottom:none;}
+	#bs-navbar-collapse .navbar-nav	 { margin-top:10px; margin-bottom:10px;}
+	
+	.photos-holder > .partners-photo {width:20%; height:200px; float:left; }
+	.memories .tabs-holder > .nav-tabs > li {display:block; width:100%;float:none;}
+	.galls-holder > .gall {display:inline-block; width:32%;}
+	
+	.contacts .text-holder table tr > td:first-child {width:17%;}
+	section div > h2 {margin-bottom:40px;}
 }
