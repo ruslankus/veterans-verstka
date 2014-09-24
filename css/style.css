@@ -178,6 +178,9 @@ header > div > nav.navbar .navbar-toggle .icon-bar {
 	font-size:14px;
 	font-weight:700;}
 	
+.meniu-item-holder .collapse {
+	text-align:justify;}
+		
 .meniu-item-holder > .meniu-item-heading > a.collapsed {
 	text-decoration:underline;}
 	
@@ -261,10 +264,11 @@ footer .text-holder {
 	
 	.photos-holder > .partners-photo {width:25%; height:200px; float:left; }
 	 .memories .tab-content {margin-top:20px;}
+	 
 	.tab-pane > * {float:left;}
 	.tab-pane > .photos-holder {width:40%;}
 	.tab-pane > .descr-holder {width:58%; padding-left:2%;}
-	.tab-pane > .descr-holder > h4 {margin-top:0;}
+	.tab-pane > .descr-holder > h4 {margin-top:0; text-align:left;}
 	.memories .tabs-holder > .nav-tabs {display:block; text-align:center;}
 	.memories .tabs-holder > .nav-tabs > li {display:inline-block; width:33%;margin-bottom:10px; }
 	.galls-holder {text-align:center;}
