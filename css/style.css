@@ -288,6 +288,64 @@ footer .text-holder {
 	text-align:center;
 	color:#adadad;}
 	
+/*--- modals windows ---*/
+.modal-windows-holder .modal-content {
+	border-radius:0;}
+
+.modal-windows-holder .modal-dialog {
+	margin:30px;}	
+	
+.modal-windows-holder .modal-header .close {
+	background-color: black;
+	color: white;
+	font-size: 40px;
+	opacity: 1;
+	padding: 0 4px;
+	position: absolute;
+	right: -31px;
+	top: 0;
+	font-weight:400;}
+	
+.modal-windows-holder .modal-body > div	{
+	margin-bottom:10px;}
+	
+.modal-windows-holder .modal-body > div > input	{
+	height:39px;
+	border-radius:0;
+	border:1px solid #e2e2e2;}
+	
+.modal-windows-holder .modal-body > div > input::-webkit-input-placeholder {
+	font-style:italic;
+	color:#b3b3b3;}
+	
+.modal-windows-holder .modal-body > div > input::-moz-placeholder {
+	font-style:italic;
+	color:#b3b3b3;}
+	
+.modal-windows-holder .modal-body > div > input:-ms-input-placeholder {
+	font-style:italic;
+	color:#b3b3b3;}
+	
+.modal-windows-holder  .modal-footer > div {
+	text-align:left;
+	width:50%;
+	float:left;}
+				
+.modal-footer > div.btn-holder > button {
+	background-color:white;
+	border-radius:0;
+	border:2px solid #000;
+	color:#000;
+	text-transform:uppercase;
+	min-width:80%;
+	padding:10px;}
+	
+.modal-footer > div.option-holder > a {
+	font-size:13px;
+	line-height:20px;
+	color:black;
+	text-decoration:underline;}
+		
 /*---- media responce part ----*/
 @media (min-width: 471px) {
 	
