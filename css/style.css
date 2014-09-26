@@ -332,13 +332,16 @@ footer .text-holder {
 	float:left;}
 				
 .modal-footer > div.btn-holder > button {
+    font-family: 'catorze27_style', sans-serif;
+	font-weight:400;
+	font-size:20px;
 	background-color:white;
 	border-radius:0;
 	border:2px solid #000;
 	color:#000;
 	text-transform:uppercase;
 	min-width:80%;
-	padding:10px;}
+	padding: 4px 10px 7px;}
 	
 .modal-footer > div.option-holder > a {
 	font-size:13px;
@@ -386,10 +389,10 @@ footer .text-holder {
 	font-size:11px;
 	color:#adadad;}
 	
-#lostpassModal	.modal-footer {
+.modal-windows-holder .modal-footer {
 	border-top:none;}
 	
-#lostpassModal .modal-header {
+.modal-windows-holder .modal-header {
 	border-bottom:none;}
 	
 #lostpassModal .modal-body {
@@ -404,7 +407,7 @@ footer .text-holder {
 	
 /*---- media responce part ----*/
 @media (min-width: 471px) {
-	
+	.modal-windows-holder .modal-dialog  {max-width:420px; margin-left:auto; margin-right:auto;}
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -431,6 +434,20 @@ footer .text-holder {
 	
 	.contacts .text-holder table tr > td:first-child {width:19%;}
 	.contacts .text-holder table tr > td{ text-align:left;}
+	
+	/*-- modal-windows -section -----*/
+	.modal-windows-holder .modal-dialog  {width:422px; margin-top:150px;}
+	#loginModal .modal-body > div	{ width:50%; float:left;}
+	#loginModal .modal-body > div > input	{ width:95%;}
+	#loginModal .modal-footer > div.btn-holder { width:125px;}
+	#loginModal .modal-footer > div.option-holder { width:125px;}
+	
+	#registerModal	.modal-body > div.password { width:225px;}
+	#registerModal .caphta > input { width:120px;}
+	#registerModal .check-box-holder > span { width:300px;}	
+	#registerModal	.modal-footer > div.btn-holder  { text-align:left; width:200px;}
+	
+	#lostpassModal	.modal-footer > div.btn-holder  { width:170px;}
 }
 
 
