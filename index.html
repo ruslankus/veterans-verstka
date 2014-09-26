@@ -45,8 +45,8 @@
                         </li><!--/dropdown -->
                     
                         <li><a href="#">Контакты</a></li>
-                        <li><a href="#">Реквизиты</a></li>
-                        <li><a href="#">Форум</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#lostpassModal">Реквизиты</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#registerModal">Форум</a></li>
                         <li><a href="#" data-toggle="modal" data-target="#loginModal">Выйти</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
@@ -398,7 +398,92 @@
         </div><!--/modal-dialog -->
     </div><!--/login-modal-->
     
-    </div><!--/modal-login-holder -->        
+    </div><!--/modal-login-holder -->  
+    
+    <div class="moda-regisration-holder">
+        <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form method="post" action="#">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                            <h2 class="modal-title" id="myModalLabel">регистрация</h2>
+                        </div><!--/modal-header -->
+                        
+                        <div class="modal-body">
+                            <div class="login">
+                                <input type="text" class="form-control" placeholder="login" />
+                            </div>
+                            <div class="password">
+                                <input type="password" class="form-control" placeholder="password" />
+                            </div>
+                            <div class="email">
+                                <input type="text" class="form-control" placeholder="email" />
+                            </div>
+                            <div class="caphta-holder">
+                            	<p>Напишите содержимое картинки, что бы мы удостоверились, что вы не бот</p>
+                                <div class="caphta">
+                                	<img src="images/capcha.jpg" width="106" height="41"><input type="text" />
+                                </div>
+                            </div><!--/caphta-holder -->
+                            
+                            <div class="check-box-holder">
+                            	<input type="checkbox">
+                                <span>Я согласен с условиями и правилами сайта.</span>
+                            </div><!--/check-box-holder -->
+                        </div><!--/modal-body -->
+                        
+                        <div class="modal-footer clearfix">
+                            <div class="btn-holder">
+                                <button type="button" class="btn btn-primary">зарегистрироваться</button>
+                            </div><!--/btn-holder -->
+                            
+                            <div class="option-holder">
+                            	<p>Все поля обязательны для заполнения</p>
+                            </div><!--/option-holder -->
+                        </div><!--/modal-footer -->
+                    </form>
+                </div><!--/modal-content -->
+            </div><!--/modal-dialog -->
+        </div><!--/register-modal-->
+    </div><!--/modal-registration-holder -->
+    
+    <div class="modal-lost-pass-holder">
+        <div class="modal fade" id="lostpassModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form method="post" action="#">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                            <h2 class="modal-title" id="myModalLabel">забыли пароль?</h2>
+                        </div><!--/modal-header -->
+                        
+                        <div class="modal-body">
+                            <div class="login">
+                                <input type="text" class="form-control" placeholder="login" />
+                            </div>
+                            <div class="password">
+                                <input type="password" class="form-control" placeholder="password" />
+                            </div>
+                        </div><!--/modal-body -->
+                        
+                        <div class="modal-footer clearfix">
+                            <div class="btn-holder">
+                                <button type="button" class="btn btn-primary">Enter</button>
+                            </div><!--/btn-holder -->
+                            
+                            <div class="option-holder">
+                                <a href="#">Forgot password</a>
+                                <a href="#">Registration</a>
+                            </div><!--/option-holder -->
+                        </div><!--/modal-footer -->
+                    </form>
+                </div><!--/modal-content -->
+            </div><!--/modal-dialog -->
+        </div><!--/register-modal-->
+    
+    
+    </div><!--/modal-los-pass-holder -->      
 </div><!--/modal-window-holder -->            
 </body>
 <script src="js/jquery-1.9.0.min.js"></script>
