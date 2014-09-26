@@ -64,7 +64,7 @@ header {
 	
 header > .nav-holder {
 	top:0;
-	left:right;
+	right:0;
 	width:100%;
 	position:absolute;}	
 	
@@ -385,6 +385,22 @@ footer .text-holder {
 	font-style:italic;
 	font-size:11px;
 	color:#adadad;}
+	
+#lostpassModal	.modal-footer {
+	border-top:none;}
+	
+#lostpassModal .modal-header {
+	border-bottom:none;}
+	
+#lostpassModal .modal-body {
+	padding: 0 15px;}		
+		
+#lostpassModal	.modal-footer > div {
+	text-align:center;
+	width:100%;}
+	
+#lostpassModal	.modal-footer > div.btn-holder > button {
+	width:100%}
 	
 /*---- media responce part ----*/
 @media (min-width: 471px) {
