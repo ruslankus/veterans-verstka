@@ -419,6 +419,35 @@ footer .text-holder {
 	padding: 4px 40px 7px;
 	float:none;}
 	
+	
+/*--- phota gallery part ----------*/
+.photo-gallery .photo-gallery-holder ul {
+	padding:0;
+	list-style:none;}
+	
+.photo-gallery-holder aside > ul > li {
+	margin-bottom:15px;
+	display:block;}
+
+.photo-gallery-holder aside > ul > li > a {
+	color:black;
+	text-decoration:underline;
+	display:block;
+	text-align:center;}
+	
+.photo-gallery-holder aside > ul > li > a.active {
+	font-weight:600;}
+
+.photo-gallery-holder .photos-holder > ul > li {
+	margin-bottom:20px;}
+	
+.photo-gallery-holder .photos-holder > ul > li > a {
+	display:block;
+	text-align:center;}
+	
+.photos-holder > ul > li > a > img{
+	text-align:center;}	
+	
 /*---- media responce part ----*/
 @media (min-width: 471px) {
 	.modal-windows-holder .modal-dialog  {max-width:420px; margin-left:auto; margin-right:auto;}
