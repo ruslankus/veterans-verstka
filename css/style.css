@@ -511,6 +511,10 @@ footer .text-holder {
 	section div > h2 {margin-bottom:40px;}
 	
 	.tabs-holder .nav-tabs > li > a { text-align:left;}
+	
+	/*----- photo-gallery -------*/
+.photo-gallery-holder .photos-holder > ul {}	
+.photo-gallery-holder .photos-holder > ul > li {display:inline-block; width:49%;}
 
 }
 
