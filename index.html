@@ -1,4 +1,4 @@
-  <!doctype html>
+<!doctype html>
 <html lang="ru">
 <head>
 <meta charset="utf-8">
@@ -44,7 +44,7 @@
                             </ul><!--/dropdown-menu -->
                         </li><!--/dropdown -->
                     
-                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#successModal">Контакты</a></li>
                         <li><a href="#" data-toggle="modal" data-target="#lostpassModal">Реквизиты</a></li>
                         <li><a href="#" data-toggle="modal" data-target="#registerModal">Форум</a></li>
                         <li><a href="#" data-toggle="modal" data-target="#loginModal">Выйти</a></li>
@@ -474,9 +474,37 @@
                 </div><!--/modal-content -->
             </div><!--/modal-dialog -->
         </div><!--/register-modal-->
+    </div><!--/modal-los-pass-holder -->
+    
+    <div class="modal-success-holder">
+        <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form method="post" action="#">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                            <h2 class="modal-title" id="myModalLabel">регистрация</h2>
+                        </div><!--/modal-header -->
+                        
+                        <div class="modal-body">
+                        	<p>Ваша учетная запись проходит проверку, ждите подтверждения. На указаный вами почтовый адрес 
+придет письмо.</p>
+                        </div><!--/modal-body -->
+                        
+                        <div class="modal-footer clearfix">
+                            <div class="btn-holder">
+                                <button type="button" class="close" data-dismiss="modal">OK</button>
+                            </div><!--/btn-holder -->
+                            
+                        </div><!--/modal-footer -->
+                    </form>
+                </div><!--/modal-content -->
+            </div><!--/modal-dialog -->
+        </div><!--/register-modal-->
     
     
-    </div><!--/modal-los-pass-holder -->      
+    </div><!--/ modal-success-holder -->
+       
 </div><!--/modal-window-holder -->            
 </body>
 <script src="js/jquery-1.9.0.min.js"></script>
