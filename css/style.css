@@ -477,7 +477,40 @@ footer .text-holder {
 .photos-holder > ul > li > a > img{
 	text-align:center;}
 	
-/*---- docunents - page ------*/		
+/*---- docunents - page ------*/
+.documents .text-holder {
+	margin-bottom:20px;}
+
+.documents ul.nav > li > a:hover {
+	background-color:transparent;
+	text-decoration:none;}
+	
+.documents ul.nav > li.active > a {
+	color:black;}
+
+.tab-content {
+	padding-left:0px;
+	padding-right:0px;}
+
+.tab-pane > table {
+	width:100%;}	
+	
+.tab-pane > table  tr > td {
+	padding-top:3px;
+	padding-bottom:3px;
+	font-size:14px;
+	text-decoration:underline;
+	text-align:left;}
+	
+.tab-pane > table  tr > td:first-child {
+	width:30px;}
+	
+.tab-pane > table  tr > td:last-child {
+	min-width:50px;
+	font-size:13px;
+	color:#adadad;
+	text-decoration:none;
+	text-align:right;}
 	
 /*---- media responce part ----*/
 @media (min-width: 471px) {
@@ -522,6 +555,9 @@ footer .text-holder {
 	#registerModal	.modal-footer > div.btn-holder  { text-align:left; width:200px;}
 	
 	#lostpassModal	.modal-footer > div.btn-holder  { width:170px;}
+	
+	/* -- document page -- */
+	.tab-content {padding-left:30px; padding-right:30px;}
 }
 
 
@@ -543,10 +579,12 @@ footer .text-holder {
 	
 	.tabs-holder .nav-tabs > li > a { text-align:left;}
 	
-	/*----- photo-gallery -------*/
-.photo-gallery-holder .photos-holder > ul {}	
-.photo-gallery-holder .photos-holder > ul > li {display:inline-block; width:49%;}
+		/*----- photo-gallery -------*/
+	.photo-gallery-holder .photos-holder > ul {}	
+	.photo-gallery-holder .photos-holder > ul > li {display:inline-block; width:49%;}
 
+	/* -- document page -- */
+	.tab-content {padding-left:60px;}
 }
 
 
