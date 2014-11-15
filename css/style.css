@@ -12,6 +12,35 @@
 
 }
 
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('../fonts/opensans-regular.eot');
+    src: url('../fonts/opensans-regular.svg#open_sansregular') format('svg'),
+		 url('../fonts/opensans-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular.woff2') format('woff2'),
+         url('../fonts/opensans-regular.woff') format('woff'),
+         url('../fonts/opensans-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('../fonts/opensans-bold.eot');
+    src: url('../fonts/opensans-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold.woff2') format('woff2'),
+         url('../fonts/opensans-bold.woff') format('woff'),
+         url('../fonts/opensans-bold.ttf') format('truetype'),
+         url('../fonts/opensans-bold.svg#open_sansbold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+
 a, a:focus {
 	outline:none;}
 
@@ -46,7 +75,7 @@ section > div > div > div:last-child {
 	border-bottom:1px solid #e2e2e2;} 	
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'open_sans', sans-serif;
 	font-size:13px;
 	color:black;
 	line-height:18px;}
@@ -446,7 +475,9 @@ footer .text-holder {
 	text-align:center;}
 	
 .photos-holder > ul > li > a > img{
-	text-align:center;}	
+	text-align:center;}
+	
+/*---- docunents - page ------*/		
 	
 /*---- media responce part ----*/
 @media (min-width: 471px) {
