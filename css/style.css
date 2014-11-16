@@ -567,8 +567,9 @@ footer .text-holder {
 	header > .nav-holder { height:auto;margin-bottom:0;}
 	header > .nav-holder > nav {max-width:1005px; margin-right:auto; margin-left:auto;}
 	header > div > nav.navbar { position:static; margin-bottom:0px;}
-	#bs-navbar-collapse {border-bottom:none;}
-	#bs-navbar-collapse .navbar-nav	 { margin-top:10px; margin-bottom:10px;}
+	.nav-holder > nav > div {padding-right:0}
+	#bs-navbar-collapse {border-bottom:none; padding-right:0}
+	#bs-navbar-collapse .navbar-nav	 { margin-top:10px; margin-bottom:10px; padding-right:0}
 	
 	.photos-holder > .partners-photo {width:20%; height:200px; float:left; }
 	.memories .tabs-holder > .nav-tabs > li {display:block; width:100%;float:none;}
@@ -584,7 +585,7 @@ footer .text-holder {
 	.photo-gallery-holder .photos-holder > ul > li {display:inline-block; width:49%;}
 
 	/* -- document page -- */
-	.tab-content {padding-left:60px;}
+	.documents .tab-content {padding-left:60px;}
 }
 
 
